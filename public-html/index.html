@@ -1,96 +1,108 @@
 <!doctype html>
-<html ng-app="demoApp">
+<html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
   </head>
   <body >
     <nav>
       <div class="nav-wrapper teal lighten-2">
         <a href="#" class="brand-logo center">NOM-DU-SITE</a>
+        <ul class="left hide-on-med-and-down">
+         <li><a href="#section-jeux"><i class="material-icons">games</i></a></li>
+         <li><a href="#section-entourage"><i class="material-icons">supervisor_account</i></a></li>
+         <li><a href="#section-pro"><i class="material-icons">hearing</i></a></li>
+         <li><a href="#section-contact"><i class="material-icons">perm_identity</i></a></li>
+       </ul>
       </div>
     </nav>
 
-<div class="container">
-          <div class="row">
-            <div class="col s12 center-align">
-                <h1 style="font-size: 47px;" id="hero-title" itemprop="description"><span class="bold">NOM-DU-SITE</span><span class="thin"> a ete cree pour detecter l'addiction aux jeux video chez les jeunes.</span></h1>
-            </div>
+      <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/gamer.jpg">
           </div>
-          <div class="row">
-            <div class="col s12 m6 l4 small-screen-margin-top">
-              <div class="card medium hoverable">
-                <div class="card-image">
-                  <img src="images/mario.jpg"  style="height:200px">
-                </div>
-                <div class="card-content">
-                  <p>Vous souhaitez vous soigner ?</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">Joueurs</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m6 l4 small-screen-margin-top">
-              <div class="card medium hoverable">
-                <div class="card-image">
-                  <img src="images/famille.jpg" style="height:200px">
-                </div>
-                <div class="card-content">
-                  <p>Vous souhaitez aider un proche ?</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">Entourage</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m6 l4 small-screen-margin-top">
-              <div class="card medium hoverable">
-                <div class="card-image">
-                  <img src="images/stethoscope.jpg"  style="height:200px">
-                </div>
-                <div class="card-content">
-                  <p>Vous souhaitez aider ?</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">Professionnel</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-</div>
-          <footer class="page-footer teal lighten-2">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Nom de l'association</h5>
-              <p class="grey-text text-lighten-4">Venez nous décrouvrir ici :</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-              </ul>
-            </div>
-          </div>
+      </div>
+      <div id="section-jeux" class="section white">
+        <div class="row container">
+          <h2 class="header">Joueurs</h2>
+          <p class="grey-text text-darken-3 lighten-3">Vous souhaitez vous soigner ?</p>
+          <button class="btn waves-effect waves-light"  onclick="window.open('http://45.55.80.134:8000/wordpress/','_self')" type="submit" name="action">Entrez
+            <i class="material-icons right">play_arrow</i>
+          </button>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-          </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/dad-familly.jpg">
         </div>
-      </footer>
+      </div>
+      <div id="section-entourage" class="section white">
+        <div class="row container">
+          <h2 class="header">Entourage</h2>
+          <p class="grey-text text-darken-3 lighten-3">Vous souhaitez aider un proche ?</p>
+          <button class="btn waves-effect waves-light"  onclick="window.open('http://www.youraddress.com','_self')" type="submit" name="action">Entrez
+            <i class="material-icons right">play_arrow</i>
+          </button>
+        </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/pro.jpg"></div>
+      </div>
+      <div id="section-pro"  class="section white">
+        <div class="row container">
+          <h2 class="header">Professionnel</h2>
+          <p class="grey-text text-darken-3 lighten-3">Vous souhaitez aider ?</p>
+          <button class="btn waves-effect waves-light"  onclick="window.open('http://www.youraddress.com','_self')" type="submit" name="action">Entrez
+            <i class="material-icons right">play_arrow</i>
+          </button>
+        </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/Who-are-we1.jpg"></div>
+      </div>
+      <div id="section-contact"  class="section white">
+        <div class="row container">
+          <h2 class="header">Contact</h2>
+          <p class="grey-text text-darken-3 lighten-3">Qui sommes nous ?</p>
+        </div>
+      </div>
 
+      <footer class="page-footer teal lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Nom de l'association</h5>
+          <p class="grey-text text-lighten-4">Venez nous décrouvrir ici :</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+      <script>
+      $(document).ready(function(){
+         $('.parallax').parallax();
+       });
+      </script>
   </body>
 </html>
