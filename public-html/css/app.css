@@ -1,16 +1,5 @@
-@font-face {
-    font-family: "font";
-    src: url('Future-TimeSplitters.otf');
-}
-@font-face {
-    font-family: "font";
-    font-style: italic;
-    src: url('Future-TimeSplitters.otf');
-}
-@font-face {
-    font-family: "font";
-    font-weight: bold;
-    src: url('Future-TimeSplitters.otf');
+body{
+  font-family: 'Open Sans', sans-serif;
 }
 #hero-title>span {
     font-family: "font", Helvetica, Arial, sans-serif;
