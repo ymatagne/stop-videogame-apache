@@ -32,6 +32,7 @@ body{
 	-moz-border-radius: 50px;
 	background: url(../images/photo1.png) no-repeat;
   margin : 0 auto;
+  background-position: 42% 38% !important;
 }
 
 .circular1 {
@@ -42,4 +43,5 @@ body{
 	-moz-border-radius: 50px;
 	background: url(../images/photo2.png) no-repeat;
   margin : 0 auto;
+  background-position: 42% 38% !important;
 }
