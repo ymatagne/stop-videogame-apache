@@ -1,9 +1,28 @@
+@font-face {
+  font-family: "Folks";
+  src: url("Folks-Bold.ttf");
+}
+@font-face {
+  font-family: "Sketch";
+  src: url("Sketch 3D.otf");
+}
+@font-face {
+  font-family: "Batman";
+  src: url("BATMAN.TTF");
+}
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Folks', sans-serif;
+}
+.header{
+  font-family: 'Batman', sans-serif;
 }
 #hero-title>span {
     font-family: "font", Helvetica, Arial, sans-serif;
-    font-size: 1em;
+    font-size: 1em ;
+}
+#titlePage{
+  font-family: 'Sketch', sans-serif;
+    font-size: 3em !important;
 }
 .circular {
 	width: 200px;
@@ -11,6 +30,16 @@ body{
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
-	background: url(../images/perso1.jpg) no-repeat;
+	background: url(../images/photo1.png) no-repeat;
+  margin : 0 auto;
+}
+
+.circular1 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	background: url(../images/photo2.png) no-repeat;
   margin : 0 auto;
 }
