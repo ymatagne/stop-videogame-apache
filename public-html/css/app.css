@@ -22,7 +22,14 @@ body{
 }
 #titlePage{
   font-family: 'Sketch', sans-serif;
-    font-size: 3em !important;
+    font-size: 100px !important;
+}
+nav{
+  height: 100px;
+  line-height: 100px;
+}
+nav> div>ul{
+  margin-top: 20px;
 }
 .circular {
 	width: 200px;
@@ -30,7 +37,7 @@ body{
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
-	background: url(../images/photo1.png) no-repeat;
+	background: url(../images/photo1.jpeg) no-repeat ;
   margin : 0 auto;
   background-position: 42% 38% !important;
 }
@@ -41,7 +48,7 @@ body{
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
-	background: url(../images/photo2.png) no-repeat;
+	background: url(../images/photo2.jpg) no-repeat;
   margin : 0 auto;
   background-position: 42% 38% !important;
 }
